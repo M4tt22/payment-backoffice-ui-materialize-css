@@ -1,0 +1,66 @@
+{
+    "name": "payment-backoffice",
+    "version": "0.1.12",
+    "private": true,
+    "dependencies": {
+        "@material-ui/core": "^4.4.3",
+        "@material-ui/icons": "^4.4.3",
+        "aphrodite": "^2.4.0",
+        "chart.js": "^2.8.0",
+        "linq": "^3.2.1",
+        "materialize-css": "^1.0.0-rc.2",
+        "prop-types": "^15.7.2",
+        "ramda": "^0.26.1",
+        "react": "^16.9.0",
+        "react-chartjs-2": "^2.8.0",
+        "react-dom": "^16.9.0",
+        "react-redux": "^7.1.1",
+        "react-router-dom": "^5.1.2",
+        "react-saga": "^0.3.1",
+        "react-scripts": "3.1.1",
+        "simple-flexbox": "^2.3.0",
+        "typescript": "^3.6.3"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "lint": "eslint --cache .",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@cdiscount/eslint-config-cdiscount-base": "^4.0.0",
+        "@cdiscount/eslint-config-cdiscount-react": "^6.0.0",
+        "@cdiscount/jest-it-renders-all-mutations": "^3.4.0",
+        "@cdiscount/jest-utils": "^3.0.1",
+        "@cdiscount/prettier-config": "1.0.0",
+        "@cdiscount/ramda-utils": "^1.0.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-react": "^7.14.3",
+        "prettier": "^1.18.2",
+        "react-router-prop-types": "^1.0.4"
+    },
+    "lint-staged": {
+        "*.{ts,js,jsx,css,scss,json,md}": [
+            "prettier --write",
+            "git add"
+        ]
+    }
+}
